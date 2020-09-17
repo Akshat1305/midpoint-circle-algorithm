@@ -3,12 +3,12 @@
 void main()
 {
 	int x, y, xc, yc, r, p;
-
-	printf("Enter radius of circle: ");
-	scanf("%d", &r);
- 
+	
 	printf("Enter co-ordinates of center (xc and yc): ");
 	scanf("%d%d", &xc, &yc);
+	printf("Enter radius of circle: ");
+	scanf("%d", &r);
+	
 	x = 0;
     	y = r;
     	p=1-r;
